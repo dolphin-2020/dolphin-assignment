@@ -1,0 +1,74 @@
+  304  ls
+  305  mkdir gitAssignment2
+  306  cd gitAssignment2
+  307  touch index.html
+  308  mkdir css js
+  309  touch css/style.css js/main.js
+  310  git status
+  311  git init
+  312  git status
+  313  git add .
+  314  git commit -m "Create project"
+  315  git status
+  316  mkdir log
+  317  touch .gitignore
+  318  echo 'log/*.log'>.lgitignore
+  319  ls
+  320  git status
+  321  ls
+  322  ls -a
+  323  rm .lgitignore
+  324  ls
+  325  ls -a
+  326  echo 'log/*.log'>.gitignore
+  327  ls
+  328  ls -a
+  329  git status
+  330  cd log
+  331  touch .gitignore
+  332  echo '# Ignore *.log file'>.gitignore
+  333  ls
+  334  cd ..
+  335  pwd
+  336  ls
+  337  ls -a
+  338  cat .gitignore
+  339  git status
+  340  git add .
+  341  git commit -m "Add log file and ignore file"
+  342  git status
+  343  ls 
+  344  git remote add origin https://github.com/dolphin-2020/dolphin-assignment.git
+  345  git remote
+  346  git push origin master
+  347  git checkout -b layoutUpdate
+  348  code .
+  349  ls
+  350  cd js
+  351  ls
+  352  cd ..
+  353  code .
+  354  git status
+  355  git add .
+  356  git commit -m "Connect with CSS and JS"
+  357  git status
+  358  touch link.html
+  359  git add link.html
+  360  ls
+  361  git status
+  362  git commit --amend
+  363  code .
+  364  git status
+  365  git add .
+  366  git commit -m "Add link in HTML"
+  367  touch whoops.html
+  368  git add .
+  369  git commit -m "Add whoops HTML file"
+  370  touch whoopsAgain.html
+  371  git add .
+  372  git commit -m "Add whoopsAgain HTML file"
+  373  git log --oneline
+  374  git reset --hard HEAD^^
+  375  git log --oneline
+  376  history
+  377  history>dolphin.txt
